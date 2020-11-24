@@ -1,0 +1,36 @@
+* {
+  outline: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container li {
+  font-size: 16px;
+  font-family: sans-serif;
+  width: 60%;
+  overflow-wrap: break-word;
+}
+
+.container button {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: red;
+  color: white;
+  border-style: none;
+  margin-top: 1px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  height: min-content;
+}
+
+.container button:hover {
+  cursor: pointer;
+}
+
+.container button:active {
+  opacity: 0.5;
+}
